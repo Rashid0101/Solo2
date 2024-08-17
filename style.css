@@ -1,0 +1,90 @@
+body {
+  background-color: #1c1c1c;
+}
+.container {
+  width: 550px;
+  height: 729px;
+  background-color: #1f2937;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.headr {
+  height: 285px;
+  background-color: #6943ff;
+  text-align: center;
+}
+
+.headr h1 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.84px;
+  padding: 33px 0 30px 0;
+}
+
+.headr p {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 800;
+  border: 2px #b295ff solid;
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.headr button {
+  color: #3d3d3d;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 6px 20px;
+  display: block;
+  margin: 25px auto 0;
+  border: none;
+  cursor: pointer;
+}
+
+.headr button:hover {
+  background-color: #66707d;
+}
+
+/* ***************************** */
+
+.continer-info div {
+  width: 500px;
+  height: 109px;
+  background-color: #273549;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.continer-info div:first-child {
+  margin-top: 36px;
+}
+
+.continer-info div:nth-of-type(2) {
+  margin-top: 24px;
+}
+
+.continer-info div:nth-of-type(3) {
+  margin-top: 24px;
+}
+
+.box-Length h2 {
+  color: #ccc1ff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-top: 31px;
+}
+
+.box-Length p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 9px;
+}
