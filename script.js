@@ -16,21 +16,27 @@ const kiloToPound = 2.204;
 
 convertBtn.addEventListener("click", function () {
   let baseValue = inputEl.value;
-  lengthEl.textContent = `${baseValue} meters = ${
+  lengthEl.textContent = `${baseValue} meters = ${(
     baseValue * meterToFeet
-  } feet | ${baseValue} feet = ${baseValue * meterToFeet} meters`;
+  ).toFixed(5)} feet | ${baseValue} feet = ${(baseValue * meterToFeet).toFixed(
+    5
+  )} meters`;
 });
 
 convertBtn.addEventListener("click", function () {
   let literValue = inputEl.value;
-  lengthElLiters.textContent = `${literValue} liters = ${
+  lengthElLiters.textContent = `${literValue} liters = ${(
     literValue * literToGallon
-  } gallons | ${literValue} gallons = ${literValue * literToGallon} liters`;
+  ).toFixed(5)} gallons | ${literValue} gallons = ${(
+    literValue * literToGallon
+  ).toFixed(5)} liters`;
 });
 
 convertBtn.addEventListener("click", function () {
   let massValue = inputEl.value;
-  lengthElMass.textContent = `${massValue} kilos = ${
-    massValue * kiloToPound.toFixed(2)
-  } pounds | ${massValue} pounds = ${massValue * kiloToPound.toFixed(2)} kilos`;
+  lengthElMass.textContent = `${massValue} kilos = ${(
+    massValue * kiloToPound
+  ).toFixed(5)} pounds | ${massValue} pounds = ${(
+    massValue * kiloToPound
+  ).toFixed(5)} kilos`;
 });
