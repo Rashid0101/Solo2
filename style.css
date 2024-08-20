@@ -24,13 +24,16 @@ body {
   padding: 33px 0 30px 0;
 }
 
-.headr p {
+.headr input {
   color: #fff;
   font-size: 58px;
   font-weight: 800;
   border: 2px #b295ff solid;
   display: inline-block;
-  padding: 0 25px;
+  width: 102px;
+  height: 65px;
+  text-align: center;
+  background-color: #6943ff;
 }
 
 .headr button {
